@@ -40,7 +40,8 @@ code { font: .9em ui-monospace, Consolas, monospace; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
-.brand { font-weight: 800; text-decoration: none; color: var(--text); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.1rem; letter-spacing: .01em; text-decoration: none; color: var(--text); }
+.brand img { display: block; width: 34px; height: 34px; border-radius: 50%; background: #000; }
 .top nav { display: flex; flex-wrap: wrap; gap: 4px 4px; }
 .top nav a { padding: 4px 10px; border-radius: 6px; text-decoration: none; color: var(--muted); font-size: .95rem; }
 .top nav a:hover { color: var(--accent); }
