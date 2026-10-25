@@ -63,6 +63,9 @@ h3 { font-size: 1.05rem; margin: 0 0 6px; }
 .entry li { margin-bottom: 4px; }
 .badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 22px; }
 .badge { padding: 8px 14px; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px; font-weight: 600; font-size: .92rem; }
+.badge small { opacity: .7; font-weight: 400; margin-left: 4px; }
+.takeaway { margin: 22px 0 0; padding: 12px 16px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 8px 8px 0; color: var(--muted); font-size: .95rem; }
+.takeaway strong { color: var(--text); }
 .skills { display: grid; grid-template-columns: 140px 1fr; gap: 10px 16px; margin: 0; }
 .skills dt { font-weight: 600; }
 .skills dd { margin: 0; color: var(--muted); }
